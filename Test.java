@@ -76,13 +76,35 @@ import java.util.*;
 //    }
 // }
 
-import firstPackage.A;
+// import firstPackage.A;
+
+// class Test {
+//       public static void main(String[] args) {
+//          Scanner s=new Scanner(System.in);   
+//          System.out.print("\nHello Vatsal!!\n");
+//          A hello = new A();
+//          hello.display();
+//       }
+// }
+
+// import myMath.*;
+
+// class Test {
+//       public static void main(String[] args) {
+//          Scanner s=new Scanner(System.in);   
+//          System.out.print("\nHello Vatsal!!\n");
+//          System.out.println(Factorial.fact(8));
+//          System.out.println(Power.cal_pow(8, 2));
+//       }
+// }
+
+import myMath.*;
 
 class Test {
       public static void main(String[] args) {
          Scanner s=new Scanner(System.in);   
          System.out.print("\nHello Vatsal!!\n");
-         A hello = new A();
-         hello.display();
+         System.out.println(Factorial.fact(8));
+         System.out.println(Power.cal_pow(8, 2));
       }
 }
